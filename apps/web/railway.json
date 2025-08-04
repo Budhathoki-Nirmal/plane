@@ -1,0 +1,9 @@
+{
+  "build": {
+    "context": ".",
+    "dockerfilePath": "Dockerfile.web"
+  },
+  "deploy": {
+    "startCommand": "yarn start"
+  }
+}
