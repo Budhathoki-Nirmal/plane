@@ -1,8 +1,5 @@
 {
-  "build": {
-    "context": ".",
-    "dockerfilePath": "./Dockerfile"
-  },
+  
   "deploy": {
     "startCommand": "./bin/docker-entrypoint-api.sh"
   }
