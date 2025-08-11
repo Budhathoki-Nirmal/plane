@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 python manage.py wait_for_db
+
+# 🔧 Apply migrations (this was missing)
+python manage.py migrate --noinput
+
 # Wait for migrations
 python manage.py wait_for_migrations
 
