@@ -1,5 +1,8 @@
-{
-  "deploy": {
-    "startCommand": "yarn start"
+{"build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "yarn install --ignore-engines && yarn build"
+  },
+  "start": {
+    "cmd": "yarn start"
   }
 }
